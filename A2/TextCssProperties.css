@@ -1,0 +1,27 @@
+#a{
+    color: yellowgreen;
+}
+#b{
+    text-align: end;   
+}
+#c{
+    text-decoration:line-through
+}
+#d{
+    text-transform:uppercase;
+}
+#e{
+    text-shadow: 3px 3px 3px teal;
+}
+#f{
+    line-height: 60px;
+}
+#g{
+    word-spacing: 25px ;
+}
+#h{
+    font-size:larger;
+}
+#i{
+    font-family:cursive;
+}

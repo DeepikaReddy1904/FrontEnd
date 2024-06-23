@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(255, 91, 222);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+        }
+
+        .outer {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: wheat;
+            width: 275px;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .card p{
+            color: gray;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(67, 38, 255);
+            padding: 7.5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 3px;
+            color: whitesmoke;
+        }
+
+        img {
+            border-radius: 50%;
+            border: 7.5px solid white;
+        }
+
+        footer {
+            background-color: rebeccapurple;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="outer">
+            <div class="card">
+                <img src="profile.png" width="150px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, itaque! Eius et quae fugiat facilis aperiam impedit doloremque cupiditate necessitatibus veniam rerum asperiores fuga, nemo expedita numquam? Ducimus, aliquam aperiam!</p>
+                <a href="#">Profile</a>
+            </div>
+            <div class="card">
+                <img src="profile.png" width="150px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, itaque! Eius et quae fugiat facilis aperiam impedit doloremque cupiditate necessitatibus veniam rerum asperiores fuga, nemo expedita numquam? Ducimus, aliquam aperiam!</p>
+                <a href="#">Profile</a>
+            </div>
+            <div class="card">
+                <img src="profile.png" width="150px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, itaque! Eius et quae fugiat facilis aperiam impedit doloremque cupiditate necessitatibus veniam rerum asperiores fuga, nemo expedita numquam? Ducimus, aliquam aperiam!</p>
+                <a href="#">Profile</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="address1">
+                <p>Plot no-01</p>
+                <p>City:Hyderabad</p>
+                <p>PINCODE-523001</p>
+            </div>
+            <div class="address2">
+                <p>Plot no-01</p>
+                <p>City:Hyderabad</p>
+                <p>PINCODE-523001</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

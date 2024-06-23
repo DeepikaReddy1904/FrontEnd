@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 132, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    margin-top: 12.5%;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 275px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    color: gray;
+}

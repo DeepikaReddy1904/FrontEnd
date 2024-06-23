@@ -1,0 +1,19 @@
+body{
+    background: rgb(0, 132, 255);
+    
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+.imgs{
+    display: flex;
+    
+}
+img{
+    margin-right: 3%;
+    border-radius: 5px;
+}

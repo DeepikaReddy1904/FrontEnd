@@ -1,0 +1,23 @@
+body{
+    background:rgb(206, 255, 169);
+    width:80% ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1,h2{
+    font-family: 'Lucida Sans';
+    /* text-align: center; */
+}
+
+.one{
+    margin-top: 5%;
+        display: flex;
+        
+}
+img{
+    margin-right: 15px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}

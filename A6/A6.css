@@ -1,0 +1,18 @@
+th{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+table{
+    margin: 0 auto;
+    margin-top: 10%;
+}
+table,
+th,
+td {
+    border-collapse: collapse;
+}
